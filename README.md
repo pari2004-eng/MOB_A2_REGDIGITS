@@ -14,16 +14,16 @@ My name is Huguette Parvine ISIMBI.
 * **Test device:** Redmi 14C
 * **Android version:** Android 14 (UP1A.231005.007)
 
-## 2. GitHub Repository and Release
+## 2. Repository and Release Links
 
 * **GitHub repository:** https://github.com/pari2004-eng/MOB_A2_REGDIGITS
 * **GitHub release:** https://github.com/pari2004-eng/MOB_A2_REGDIGITS/releases/tag/v1.0.0
 
-The published GitHub release contains the Android APK and demonstration video.
+The GitHub release contains the Android APK and demonstration video.
 
 ## 3. Purpose
 
-HuguettePortfolio is a personal mobile portfolio application developed for the Mobile Application Development assignment. It presents my personal profile, skills, education, projects, and other professional information through a mobile application built with React Native, Expo, and TypeScript.
+HuguettePortfolio is a personal mobile portfolio application developed for the Mobile Application Development assignment. It presents my profile, skills, education, projects, and professional information in a mobile application.
 
 ## 4. Features
 
@@ -32,12 +32,13 @@ HuguettePortfolio is a personal mobile portfolio application developed for the M
 * Skills and education timeline.
 * Projects list with individual project details.
 * Profile editor with controlled input fields.
-* Input validation with field-level error messages.
+* Field-level validation messages for invalid or incomplete information.
 * Local persistence of saved profile information.
 * Bottom-tab navigation between application screens.
 * Navigation to project details and back to the projects list.
-* About screen containing student information, registration number, verification code, version, and data-use information.
-* Android APK distribution through a GitHub release.
+* About screen displaying student information, registration number, verification code, application name, and version.
+* Android APK distribution through GitHub Releases.
+* Offline access to the tested application screens.
 
 ## 5. Technologies Used
 
@@ -51,16 +52,16 @@ HuguettePortfolio is a personal mobile portfolio application developed for the M
 
 ## 6. Project Structure
 
-The main project files and folders include:
+The project contains the following main files and folders:
 
 * `src/app/` — application screens and routes.
 * `src/components/` — reusable application components.
-* `assets/` — images and other application assets.
+* `assets/` — images and application assets.
 * `docs/MOB_A2_REGDIGITS_UIUX.pdf` — UI/UX documentation.
 * `README.md` — project documentation.
 * `AI_USE.md` — AI-use declaration.
 * `DECLARATION.md` — student declaration.
-* `TEST_LOG.md` — application testing record.
+* `TEST_LOG.md` — application test log.
 * `app.json` — Expo application configuration.
 * `eas.json` — EAS build configuration.
 * `package.json` — project dependencies and scripts.
@@ -70,15 +71,15 @@ The main project files and folders include:
 
 ### Prerequisites
 
-Install Node.js and npm before running the project locally.
+Install Node.js and npm.
 
 ### Steps
 
-1. Clone or download the repository.
+1. Clone or download the GitHub repository.
 
 2. Open a terminal in the project directory.
 
-3. Install dependencies:
+3. Install the project dependencies:
 
    ```bash
    npm install
@@ -92,7 +93,7 @@ Install Node.js and npm before running the project locally.
 
 5. Follow the Expo instructions to run the application on a compatible device.
 
-**Note:** Expo Go is intended for development and testing. The published standalone Android APK should be used to verify installation and offline behaviour.
+**Note:** Expo Go is intended for development and testing. Use the installed standalone APK to verify installation and offline operation.
 
 ## 8. Android APK Build
 
@@ -104,50 +105,52 @@ Build command:
 npx eas-cli build --platform android --profile preview
 ```
 
-The resulting APK was downloaded and published as:
+The APK was published as:
 
 `MOB_A2_REGDIGITS.apk`
 
-The APK is available from the GitHub release:
+Download it from the GitHub release:
 
 https://github.com/pari2004-eng/MOB_A2_REGDIGITS/releases/tag/v1.0.0
 
 ## 9. Testing
 
-The following application behaviours were tested during development:
+The application was tested during development on a Redmi 14C running Android 14 (UP1A.231005.007).
 
-* Launching the application.
-* Navigating between the bottom tabs.
-* Opening project details and returning to the projects list.
-* Selecting, previewing, replacing, and removing the profile photo.
+### Confirmed tests
+
+* The installed application launched successfully.
+* The Home, Skills, Projects, and About screens remained accessible with Airplane Mode enabled and Wi-Fi turned off.
+
+### Additional tests
+
+The following tests should be marked as passed only after confirming each result:
+
+* Opening project details and returning to the Projects screen.
+* Selecting, previewing, replacing, and removing a profile photo.
 * Checking profile editor validation messages.
 * Saving valid profile information.
-* Confirming saved profile information remains available after closing and reopening the application.
+* Confirming saved information remains available after completely closing and reopening the app.
+* Checking the student information displayed on the About screen.
 
-**Test device:** Redmi 14C.
-
-**Android version:** Android 14 (UP1A.231005.007).
-
-**Offline testing:** The application must be tested using the installed standalone APK with Airplane Mode enabled. Expo Go testing alone does not confirm offline operation.
-
-Only mark a test as passed in `TEST_LOG.md` after confirming the result on the device. Record any failures or limitations honestly.
+The detailed test results are recorded in `TEST_LOG.md`.
 
 ## 10. Release Information
 
 * **Release version:** v1.0.0
 * **Release title:** HuguettePortfolio v1.0.0
-* **APK:** `MOB_A2_REGDIGITS.apk`
-* **Demo video:** `MOB_A2_REGDIGITS_DEMO.mp4`
+* **APK filename:** `MOB_A2_REGDIGITS.apk`
+* **Demo video filename:** `MOB_A2_REGDIGITS_DEMO.mp4`
 
 **Release URL:**
 
 https://github.com/pari2004-eng/MOB_A2_REGDIGITS/releases/tag/v1.0.0
 
-Both the APK and demo video are attached to the published GitHub release.
+Both the APK and demonstration video are attached to the published GitHub release.
 
 ## 11. UI/UX Documentation and Evidence
 
-The UI/UX documentation is located at:
+The UI/UX documentation is available at:
 
 `docs/MOB_A2_REGDIGITS_UIUX.pdf`
 
@@ -161,32 +164,29 @@ These documents should accurately represent the application, development process
 
 ## 12. Data Use and Privacy
 
-The application is intended to keep portfolio information available locally on the device. The profile information and selected profile photo should be checked against the actual implementation before making a final statement about how each is stored.
+The application is intended to keep portfolio information available locally on the device. The implementation should be checked to confirm exactly how profile fields and the selected profile photo are stored.
 
 The project does not claim to use a remote server or cloud account for portfolio storage.
 
 ## 13. Known Limitations
 
 * The application focuses on presenting portfolio information and saving profile data locally.
-* Offline operation must be confirmed using the installed standalone APK.
-* The actual testing results must be recorded in `TEST_LOG.md`.
-* Project descriptions must accurately represent the work completed. Conceptual projects should be identified as such.
-* Any remaining assignment requirements should be checked against the lecturer's instructions before submission.
+* Only the screens and behaviours actually tested should be reported as passed.
+* Project descriptions must accurately represent work completed by the student. Conceptual projects should be identified as such.
+* The final submission should be checked against the lecturer's assignment instructions.
 
 ## 14. Final Git Commit
 
-After all final documentation and testing updates have been completed, commit and push the changes.
+The latest documentation changes were committed and pushed to the GitHub repository.
 
-To obtain the final commit hash, run:
+The commit hash shown here must be updated after this final README edit is committed:
 
-```bash
-git log -1 --format=%H
-```
+`To be updated after the final commit.`
 
-Record the resulting full commit hash here before final submission.
+Repository: https://github.com/pari2004-eng/MOB_A2_REGDIGITS
 
 ## 15. Responsible Use of AI
 
 AI assistance was used during development for learning, troubleshooting, and documentation support. This included guidance on the Expo project structure, navigation, profile editing, validation, data persistence, documentation, and Android APK building.
 
-I am responsible for reviewing, understanding, testing, and verifying the submitted application. The source code, project descriptions, screenshots, testing results, and supporting documents must accurately represent my work and comply with institutional requirements.
+I am responsible for reviewing, understanding, testing, and verifying the submitted application. The project descriptions, screenshots, testing results, source code, and supporting documents must accurately represent my work and comply with institutional requirements.
