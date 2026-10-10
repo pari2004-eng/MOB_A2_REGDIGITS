@@ -1,66 +1,79 @@
-HuguettePortfolio Test Log
+# HuguettePortfolio Test Log
 
-* Student: Huguette Parvine ISIMBI
-* Registration number: 25/27647
-* Application version: 1.0.0
-* Verification code: MOB-A2-7647
+## Student Information
 
-Test Results
+* **Student name:** Huguette Parvine ISIMBI
+* **Registration number:** 25/27647
+* **Application name:** HuguettePortfolio
+* **Verification code:** MOB-A2-7647
+* **Test device:** Redmi 14C
+* **Android version:** Android 14 (UP1A.231005.007)
 
-Test 1: App Launch
+## Test 1: Application Launch
 
-* Expected:Home screen opens.
-* Actual:To be confirmed.
-* Status: Pending.
+**Result:** PASS
 
-Test 2: Bottom-Tab Navigation
+**Notes:** The installed HuguettePortfolio application opened successfully on the Redmi 14C.
 
-* Expected:Each tab opens correctly.
-* Actual: To be confirmed.
-* Status: Pending.
+## Test 2: Bottom-Tab Navigation
 
-Test 3: Project Details
+**Result:** PASS
 
-* Expected: Project details open, and the Back button returns to Projects.
-* Actual: To be confirmed.
-* Status: Pending.
+**Notes:** The Home, Skills, Projects, and About screens opened successfully during the offline test.
 
-Test 4: Profile Photo
+## Test 3: Offline Operation
 
-* Expected:Select, preview, replace, and remove a photo.
-* Actual: To be confirmed.
-* Status: Pending.
+**Result:** PASS
 
-Test 5: Profile Validation
+**Notes:** The installed application opened and the tested screens remained accessible with Airplane Mode enabled and Wi-Fi turned off.
 
-* Expected: Invalid fields display useful validation messages.
-* Actual: To be confirmed.
-* Status: Pending.
+## Test 4: Project Details Navigation
 
- Test 6: Profile Saving
+**Result:** Verify separately
 
-* Expected:Saved information remains after restarting the app.
-* Actual: To be confirmed.
-* Status: Pending.
+**Notes:** Open a project from the Projects screen and confirm that its details appear. Test the Back button to return to the Projects screen.
 
- Test 7: About Screen
+## Test 5: Profile Photo
 
-* Expected:Student details and verification code are correct.
-* Actual: To be confirmed.
-* Status: Pending.
+**Result:** Verify separately
 
- Test 8: Offline Operation
+**Notes:** Test selecting a photo, previewing it, replacing it with another photo, and removing it.
 
-* Expected: The installed app opens and saved data remains available offline.
-* Actual: To be tested using the installed APK.
-* Status: Pending.
+## Test 6: Profile Editor Validation
 
- Test Environment
+**Result:** Verify separately
 
-* Device model:To be recorded.
-* Android version:To be recorded.
-* Test date: To be recorded.
+**Notes:** Enter invalid or incomplete information and confirm that the appropriate field-level validation messages appear.
 
- Notes
+## Test 7: Saving Profile Information
 
-Mark each test as passed only after confirming the result on the installed application. Record any failures or limitations honestly.
+**Result:** Verify separately
+
+**Notes:** Enter valid profile information, save it, and confirm that a success message appears.
+
+## Test 8: Data Persistence After Restart
+
+**Result:** Verify separately
+
+**Notes:** Save profile information, close the application completely, reopen it, and confirm that the saved information remains available.
+
+## Test 9: About Screen
+
+**Result:** Verify separately
+
+**Notes:** Confirm that the About screen displays the correct student name, registration number, verification code, application name, and version.
+
+## Test Environment
+
+* **Device:** Redmi 14C
+* **Operating system:** Android 14 (UP1A.231005.007)
+* **Application type:** Installed standalone Android APK
+* **Offline test conditions:** Airplane Mode enabled and Wi-Fi turned off
+
+## Conclusion
+
+The application launched successfully, and the Home, Skills, Projects, and About screens remained accessible during the offline test. The other tests must be completed and their results recorded before final submission.
+
+## Test Date
+
+Enter the actual date on which the tests were performed.
