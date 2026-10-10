@@ -177,13 +177,14 @@ The project does not claim to use a remote server or cloud account for portfolio
 
 ## 14. Final Git Commit
 
+## 14. Final Git Commit
+
 The latest documentation changes were committed and pushed to the GitHub repository.
 
-The commit hash shown here must be updated after this final README edit is committed:
+* **Latest commit hash:** `db2b334277e21b26979b307ee37adc3a8728b3a5`
+* **GitHub repository:** https://github.com/pari2004-eng/MOB_A2_REGDIGITS
 
-`To be updated after the final commit.`
-
-Repository: https://github.com/pari2004-eng/MOB_A2_REGDIGITS
+This hash identifies the commit containing the latest documentation changes before this README update.
 
 ## 15. Responsible Use of AI
 
