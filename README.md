@@ -1,56 +1,97 @@
-# Welcome to your Expo app 👋
+My name is Huguette Parvine ISIMBI.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+HuguettePortfolio
 
-## Get started
+Student Information
 
-1. Install dependencies
+* **Student name:** Huguette Parvine ISIMBI
+* **Registration number:** 25/27647
+* **Verification code:** MOB-A2-7647
+* **Application name:** HuguettePortfolio
+* **Version:** 1.0.0
 
-   ```bash
-   npm install
-   ```
+ Purpose
 
-2. Start the app
+HuguettePortfolio is a personal mobile portfolio application developed for the Mobile Application Development assignment. It presents my profile, skills, education, projects, and contact-free professional information.
 
-   ```bash
-   npx expo start
-   ```
+ Features
 
-In the output, you'll find options to open the app in a
+* Home screen with profile information and profile photo.
+* Skills and education timeline.
+* Project list with individual project details.
+* Profile editor with input validation and field-level error messages.
+* Local data persistence for saved profile information.
+* Profile photo selection, preview, replacement, and removal.
+* About screen with student details, verification code, version, and data-use information.
+* Bottom-tab navigation and project-detail navigation.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ Technologies
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* AsyncStorage
+* Expo Image Picker
 
-## Get a fresh project
+ Setup and Run
 
-When you're ready, run:
+1. Install Node.js and npm.
 
-```bash
-npm run reset-project
-```
+2. Clone or download this repository.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Open a terminal in the project folder.
 
-### Other setup steps
+4. Install dependencies:
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+   `npm install`
 
-## Learn more
+5. Start the development server:
 
-To learn more about developing your project with Expo, look at the following resources:
+   `npx expo start`
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+6. Follow the Expo instructions to open the application on a compatible device.
 
-## Join the community
+ Android APK Build
 
-Join our community of developers creating universal apps.
+The Android APK was built using Expo Application Services (EAS).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Build command:
+
+`npx eas-cli build --platform android --profile preview`
+
+The final APK should be distributed as `MOB_A2_REGDIGITS.apk`.
+
+ Testing
+
+* **Test device:** To be filled in with the actual device used.
+* **Android version:** To be filled in after checking the device settings.
+* **Offline testing:** To be completed using the installed standalone APK.
+
+ Release
+
+* **Release version:** v1.0.0
+* **APK download:** Add the GitHub release link after publishing the release.
+* **Demo video:** `MOB_A2_REGDIGITS_DEMO.mp4` (to be added to the release).
+
+Documentation and Evidence
+
+The UI/UX documentation is available in:
+
+`docs/MOB_A2_REGDIGITS_UIUX.pdf`
+
+Additional testing and declaration evidence will be added to the repository.
+
+ Limitations
+
+* The application currently focuses on presenting and locally saving portfolio information.
+* Offline operation must be verified using the installed standalone APK.
+* Project descriptions should reflect work I have genuinely completed or clearly identify conceptual work.
+
+ Final Commit
+
+* **Final Git commit hash:** To be added after the final changes are committed.
+
+ Responsible Use of AI
+
+AI assistance was used during development for guidance, troubleshooting, and documentation support. The submitted application and its features should be reviewed and tested by the student to ensure that the final work is understood and accurately represented.
