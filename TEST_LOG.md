@@ -29,39 +29,45 @@
 
 ## Test 4: Project Details Navigation
 
-**Result:** Verify separately
+## Test 4: Project Details Navigation
 
-**Notes:** Open a project from the Projects screen and confirm that its details appear. Test the Back button to return to the Projects screen.
+**Result:** PASS
+
+**Notes:** Opened a project from the Projects screen and confirmed that its details appeared. Tested the Back button and successfully returned to the Projects screen.
+
 
 ## Test 5: Profile Photo
 
-**Result:** Verify separately
+**Result:** PASS
 
-**Notes:** Test selecting a photo, previewing it, replacing it with another photo, and removing it.
+**Notes:** Selected a profile photo, confirmed that the photo preview appeared, replaced the photo with another photo, and removed it successfully.
 
-## Test 6: Profile Editor Validation
 
-**Result:** Verify separately
 
-**Notes:** Enter invalid or incomplete information and confirm that the appropriate field-level validation messages appear.
+## Test 6: Profile Validation
 
-## Test 7: Saving Profile Information
+**Result:** PASS
 
-**Result:** Verify separately
+**Notes:** Submitted invalid or incomplete profile information and confirmed that the appropriate validation error messages appeared.
 
-**Notes:** Enter valid profile information, save it, and confirm that a success message appears.
 
-## Test 8: Data Persistence After Restart
+## Test 7: Profile Save
 
-**Result:** Verify separately
+**Result:** PASS
 
-**Notes:** Save profile information, close the application completely, reopen it, and confirm that the saved information remains available.
+**Notes:** Entered valid profile information, saved the profile, and confirmed that the success message appeared.
+
+## Test 8: Persistence After Restart
+
+**Result:** PASS
+
+**Notes:** Saved profile information, closed the application, reopened it, and confirmed that the saved information was still available.
 
 ## Test 9: About Screen
 
-**Result:** Verify separately
+**Result:** PASS
 
-**Notes:** Confirm that the About screen displays the correct student name, registration number, verification code, application name, and version.
+**Notes:** Confirmed that the About screen displays the app name, student name, registration number, verification code, app version, and data-use statement correctly.
 
 ## Test Environment
 
